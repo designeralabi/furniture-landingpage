@@ -87,6 +87,7 @@ body{
 
     #content-image img{
         width: 350px;
+        height: 525px;
         cursor: pointer;
     }
 
@@ -112,6 +113,19 @@ body{
 
     img:nth-child(1){
         height: 150px;
-    }
+    }   
 
 }
+
+.img-1{
+    background-color: #462616;
+}
+
+.img-2{
+    background-color: #EFC99F;
+}
+
+.img-3{
+    background-color: #CACBC9;
+}
+
