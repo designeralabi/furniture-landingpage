@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700&display=swap");
+body {
+  background-color: #462616;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+#content-wrapper {
+  width: 85%;
+  margin: 20px auto;
+}
+
+#main-hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#main-hero #nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 500px;
+}
+
+#main-hero #nav-links li {
+  list-style-type: none;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#main-hero #nav-links li:hover {
+  border-bottom: px solid #f5a278;
+}
+
+#hero-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#hero-content .content {
+  width: 50%;
+}
+
+#hero-content .content h1 {
+  font-size: 3rem;
+}
+
+#hero-content .content button {
+  border: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  padding: 15px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-transition: all .5s linear;
+  transition: all .5s linear;
+  position: relative;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+#hero-content .content button::before {
+  content: '';
+  background-color: #f5a278;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: -210px;
+  opacity: 1;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: -1;
+}
+
+#hero-content .content button:hover::before {
+  left: 0;
+  opacity: 1;
+}
+
+#hero-content .content button:hover {
+  color: #000;
+}
+
+#hero-content #content-image img {
+  width: 350px;
+  cursor: pointer;
+}
+
+#hero-content article p {
+  font-size: 1.1rem;
+  width: 500px;
+  line-height: 1.8rem;
+}
+/*# sourceMappingURL=style.css.map */
