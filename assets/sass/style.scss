@@ -20,7 +20,7 @@ body{
     #nav-links{
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 500px;
 
         li{
@@ -84,12 +84,10 @@ body{
         }
     }
 
-    #content-image{
 
-        img{
-            width: 350px;
-            cursor: pointer;
-        }
+    #content-image img{
+        width: 350px;
+        cursor: pointer;
     }
 
     article p{
@@ -100,5 +98,20 @@ body{
 }
 
 .product-grid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    margin: 60px auto 70px;
+
+    img{
+        width: 100px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    img:nth-child(1){
+        height: 150px;
+    }
 
 }
